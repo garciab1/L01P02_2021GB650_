@@ -8,5 +8,11 @@ namespace L01P02_2021GB650_.Models
         {
 
         }
+        public DbSet<alumnos> alumnos { get; set; }
+        public DbSet<departamentos> departamentos { get; set; }
+        public DbSet<facultad> facultad { get; set; }
+        public DbSet<materias> materias { get; set; }
+
+
     }
 }
